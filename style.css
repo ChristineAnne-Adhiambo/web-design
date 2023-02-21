@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(77, 77, 226);
+  padding: 30px;
+}
+
+.landpage {
+  background-color: #fff;
+  border-radius: 50px 50px 0px 0px;
+}
+.navigation {
+  float: right;
+  margin-right: 5%;
+}
+li {
+  list-style: none;
+  display: inline;
+  margin: 10px;
+  font-size: 15px;
+}
+.logo {
+  height: 100px;
+}
+.image {
+  background: cover;
+  height: 50%;
+}
+.dase {
+  text-align: center;
+  padding-top: 2%;
+}
+button {
+  background-color: rgb(70, 70, 212);
+}
+#green {
+  color: rgb(29, 100, 29);
+}
+#blue {
+  color: rgb(5, 5, 214);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.left-container {
+  flex-basis: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.partners img {
+  max-width: 15%;
+  margin: 10px;
+}
+.right-container {
+  flex-basis: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.sub-container {
+  flex-basis: 30%;
+  height: 150px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+.blue {
+  background-color: #87cefa;
+}
+.green {
+  background-color: #98fb98;
+}
+.yellow {
+  background-color: #ffff99;
+}
+.Main{
+  display: flex;
+}
+.down{
+  display: flex;
+  margin: 2em;
+}
+.bottom{
+  margin: 3em;
+}
+.sameday{
+  margin: 0.9em;
+}
+
+
+.sameday h3{
+  color: rgb(41, 41, 206);
+  text-transform: uppercase;
+
+}
+.sameday p{
+  color: #2788c5;
+}
+.sameday hr{
+  border-top: 3px solid blue;
+}
+
+.unique h3{
+  color: rgb(41, 41, 206);
+  text-transform: uppercase;
+}
+.unique{
+  margin: 0.5em;
+}
+.unique p{
+  color: #2788c5;
+}
+.unique hr{
+  border-top: 3px solid rgba(255, 34, 0, 0.869);
+}
+
+.Manage h3{
+  color: rgb(41, 41, 206);
+  text-transform: uppercase;
+}
+
+.Manage{
+  margin: 0.9em;
+}
+
+.Manage p{
+  color: #2788c5;
+}
+.Manage hr{
+  border-top: 3px solid rgba(0, 255, 26, 0.843);
+}
